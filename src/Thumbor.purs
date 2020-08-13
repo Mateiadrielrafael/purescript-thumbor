@@ -47,7 +47,7 @@ data VAlign
   | Middle
   | Bottom
 
---  I don't call thsoe Right and Left for them to not create collisions with the commonly used Data.Either
+--  I don't call those "Right" and "Left" to avoid name collisions with the commonly used Data.Either module.
 data HAlign
   = RightAlign
   | Center
